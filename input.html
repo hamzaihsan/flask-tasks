@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>get user data</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter value to generate a square</h2>
+        <form action = '/square' , method = 'POST'>
+            <input type="number" name = 'no'>
+            <input type="submit" name = 'sub'>
+        </form><br><br>
+<h2>Enter value to generate a table</h2>
+
+        <form action = '/table' , method = 'POST'>
+            <input type="number" name = 'num'>
+            <input type="submit" name = 'sub'>
+        </form>
+
+<h2>Enter the Image Path</h2>
+    <div id = 'image'>
+        <form action = '/convertHash' , method = 'POST'>
+            <input type="text" name = 'Path'>
+            <input type="submit" name = 'Submit'>
+        </form>
+    </div>
+
+</body>
+</html>
